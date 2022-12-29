@@ -1,0 +1,74 @@
+.pdf {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  width: 631px;
+  // border: 1px solid black;
+
+  &__content {
+    padding: 6px 12px;
+  }
+
+  &__header {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+
+    &__title {
+      font-weight: bold;
+    }
+  }
+
+  table {
+    width: 100%;
+    font-size: 12px;
+    border-collapse: collapse;
+    border-spacing: 0;
+
+    tr {
+    }
+
+    td {
+      width: 50px;
+      vertical-align: top;
+    }
+  }
+
+  &__id-table {
+    border: 1px solid black;
+    margin-bottom: 16px;
+  }
+
+  &__details-table {
+    border: 1px solid black;
+    margin-bottom: 16px;
+
+    &__section {
+      
+      td {
+        min-width: 100px;
+      }
+    }
+  }
+
+  &__results-table {
+    margin-bottom: 32px;
+
+    th, td {
+      border: 1px solid black;
+      text-align: center;
+    }
+  }
+
+  &__info-table {
+    width: auto !important;
+
+    td {
+      min-width: 90px;
+      white-space: nowrap;
+    }
+  }
+}
