@@ -9,11 +9,11 @@
   ],
   "main": "src/index.tsx",
   "dependencies": {
-    "jspdf": "2.5.1",
+    "jspdf": "4.1.0",
     "node-sass": "8.0.0",
     "react": "18.0.0",
     "react-dom": "18.0.0",
-    "react-scripts": "4.0.3"
+    "react-scripts": "5.0.0"
   },
   "devDependencies": {
     "@types/react": "18.0.25",
